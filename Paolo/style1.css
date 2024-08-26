@@ -1,0 +1,102 @@
+body {  
+    border-style: solid;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 1px;
+}
+
+#a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+}
+
+#b {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  background-color: lightgreen;
+}
+
+#c {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  background-color: lightblue;
+}
+
+#d {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  background-color: lightgrey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-family: "Permanent Marker";
+  margin-left: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+    font-family: "Permanent Marker";
+    padding-left: 10px;
+}
+
+footer {
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

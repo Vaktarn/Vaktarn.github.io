@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Slutprojekt</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Carl Martins">
+    <meta name="description" content="Slutprojekt webbutveckling">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Mighty Mug Mini: Black</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/MightyMug-plastic-other-black.jpg" alt="Mighty Mug Mini Black" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Mighty Mug Go: Red</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/MightyMug-plastic-go-red.jpg" alt="Mighty Mug Go Red" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Mighty Mug Go Alloy Stainless Steel - Black Pearl</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/MightyMug-Go-BlackPearl.jpg" alt="Mighty Mug Go Black Pearl" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel4">Mighty Mug Ceramic 12 oz: Black</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/MightyMug-Ceramic-Black.jpg" alt="Mighty Mug Ceramic Black" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-lg-0" id="nav">
+    <a class="navbar-brand" href="index.html"><img src="img/paolo2.png" width="90" height="90" alt="Logga"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item onHoverEffect">
+          <a class="nav-link" href="index.html">Hem
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item onHoverEffect">
+          <a class="nav-link" href="om.html">Om oss</a>
+        </li>
+        <li class="nav-item active onHoverEffect">
+          <a class="nav-link" href="produkter.html">Produkter</a>
+        </li>
+        <li class="nav-item onHoverEffect">
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main role="main">
+    <div class="jumbotron bg-warning">
+      <div class="container text-center">
+        <h1 class="display-3" style="font-family: 'Verdana'; color: black;">Produkter</h1>
+      </div>
+    </div>
+    <hr id="hr1">
+
+  <div class="container">
+    <header class="jumbotron my-4">
+      <h1 class="display-4 text-center">Webbshop</h1>
+      <p class="lead text-center">Här hittar ni Don't Spill UF:s utbud av varor.</p>
+    </header>
+
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top mx-auto onHoverEffect" data-toggle="modal" data-target="#exampleModal1" src="img/MightyMug-plastic-other-black.jpg" alt="Mighty Mug Mini Black" style="width: 45%">
+          <div class="card-body">
+            <h4 class="card-title">Mighty Mug Mini: Black</h4>
+            <p class="card-text">En liten mugg som är enkel att ta med sig när man ska resa!</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://themightymug.com/collections/plastic/products/mighty-mug-mini-black" class="btn btn-primary">Länk till tillverkaren</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top mx-auto onHoverEffect" data-toggle="modal" data-target="#exampleModal2" src="img/MightyMug-plastic-go-red.jpg" alt="Mighty Mug Go Red" style="width: 35%">
+          <div class="card-body">
+            <h4 class="card-title">Mighty Mug Go: Red</h4>
+            <p class="card-text">En stor och rymlig mugg, perfekt till när man ska bjuda hela kontoret på kaffe!</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://themightymug.com/collections/plastic/products/mighty-mug-go-red" class="btn btn-primary">Länk till tillverkaren</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top mx-auto onHoverEffect" data-toggle="modal" data-target="#exampleModal3" src="img/MightyMug-Go-BlackPearl.jpg" alt="Mighty Mug Go Black Pearl" style="width: 25%">
+          <div class="card-body">
+            <h4 class="card-title">Mighty Mug Go Alloy Stainless Steel - Black Pearl</h4>
+            <p class="card-text">Mycket stilren och högkvalitativ mugg. För den som vill ha en mugg som håller länge!</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://themightymug.com/collections/stainless/products/mighty-mug-go-alloy-collection-stainless-steel-black-pearl" class="btn btn-primary">Länk till tillverkaren</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top mx-auto onHoverEffect" data-toggle="modal" data-target="#exampleModal4" src="img/MightyMug-Ceramic-Black.jpg" alt="Mighty Mug Ceramic Black" style="width: 80%">
+          <div class="card-body">
+            <h4 class="card-title">Mighty Mug Ceramic 12 oz: Black</h4>
+            <p class="card-text">Kaffe entusiast? Leta inte längre, här är bästa produkten för dig!</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://themightymug.com/collections/ceramic/products/mighty-mug-ceramic-12-oz-black" class="btn btn-primary">Länk till tillverkaren</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="featurette-divider">
+  </main>
+
+  <footer class="py-5 bg-dark mt-5" id="footer">
+    <p class="m-0 text-center text-white">&copy; Carl Martins <script>document.write(new Date().getFullYear());</script></p>
+  </footer>
+
+
+  <!-- Nödvändiga scripts för Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <title>Carl Martins samlingssida</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Carl Martins">
+    <meta name="description" content="Samlingssida">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Modal, sköter funktionaliteten till knapparna "förhandsgranska" -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel1">Slutprojekt</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/slutprojekt.png" class="img-fluid img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">Paolos webbtjänst</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/paolo.png" class="img-fluid img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel3">Hit och dit resor</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/hitochditresor.png" class="img-fluid img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="text-center" style="font-family: 'Verdana'; color: black; font-size: 50px">Samlingssida</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="text-center">Mina senaste projekt</h1>
+        <hr id="hr1">
+        <div class="row pt-4 text-center">
+          <div class="col-md-4">
+            <h2><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></h2>
+            <h2>Slutprojekt</h2>
+            <p>Det här är mitt slutprojekt i kursen webbutveckling!</p>
+            <p><a class="btn bg-primary text-light" href="Slutprojekt/index.html">Gå till sidan</a></p>
+            <p><a class="btn btn-info" href="" data-toggle="modal" data-target="#exampleModal1">Förhandsgranska</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></h2>
+            <h2>Paolos webbtjänst</h2>
+            <p>En relativt simpel hemsida som introducerar Paolos webbutvecklingstjänst.</p>
+            <p><a class="btn bg-primary text-light" href="http://carlmartins.online/Paolo/index.html">Gå till sidan</a></p>
+            <p><a class="btn btn-info" href="" data-toggle="modal" data-target="#exampleModal2">Förhandsgranska</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></h2>
+            <h2>Hit och dit resor</h2>
+            <p>En reseguide för dig som planerar att åka iväg på en resa.</p>
+            <p><a class="btn bg-primary text-light" href="http://carlmartins.online/hitochditresor.html">Gå till sidan</a></p>
+            <p><a class="btn btn-info" href="carlmartins.online/Slutprojekt/index.html" data-toggle="modal" data-target="#exampleModal3">Förhandsgranska</a></p>
+          </div>
+        </div>
+      </div>
+    <hr style="margin-top: 115px;">
+    </main>
+
+    <footer class="bg-dark py-5" id="footer">
+      <p class="m-0 text-center text-white">&copy; Carl Martins 2020</p>
+    </footer>
+
+    <!-- Nödvändiga scripts för Bootstrap -->
+    <script>
+    function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");
+    } 
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

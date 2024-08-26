@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Slutprojekt</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Carl Martins">
+    <meta name="description" content="Slutprojekt webbutveckling">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Tävling - Årets vara</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/aretsvara.png" alt="Förhandsvisning årets vara" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Broschyrer till UF-mässan i Borås</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/broschyr.png" alt="Förhandsvisning broschyr" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Affärsplan</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/affarsplan.png" alt="Förhandsvisning affärsplan" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-lg-0" id="nav">
+    <a class="navbar-brand" href="index.html"><img src="img/paolo2.png" width="90" height="90" alt="Logga"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active onHoverEffect">
+          <a class="nav-link" href="#">Hem
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item onHoverEffect">
+          <a class="nav-link" href="om.html">Om oss</a>
+        </li>
+        <li class="nav-item onHoverEffect">
+          <a class="nav-link" href="produkter.html">Produkter</a>
+        </li>
+        <li class="nav-item onHoverEffect">
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main>
+    <div class="jumbotron bg-primary">
+      <div class="container">
+        <h1 class="display-3 text-center" style="font-family: 'Verdana'; color: black;">Hem</h1>
+      </div>
+    </div>
+    <hr id="hr1">
+
+    <div class="container">
+      <h1 class="text-center">Välkommen!</h1>
+      <hr id="hr1">
+      <div class="row">
+        <div class="col-lg-3">
+          <h1 class="text-secondary">Navigering</h1>
+          <div class="list-group">
+            <a href="#reklamfilm" class="list-group-item text-info">Reklamfilm</a>
+            <a href="#projekt" class="list-group-item text-info">Projekt</a>
+            <a href="#footer" class="list-group-item text-info">Footer</a>
+          </div>
+        </div>
+        <div class="col-lg border border-info rounded">
+          <h4 class="mt-lg-2" >Don't Spill UF är ett UF-företag som säljer muggar som inte välter! Företaget består av fyra ungdomar som strävar efter att ge dig som kund den bästa upplevelsen med våra produkter som bara möjligt! Våra produkter är högkvalitativa och håller länge.<br><br>Kontakta oss om du har frågor!</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-5" id="reklamfilm">
+      <h2 class="text-center text-info">Reklamfilm</h2>
+      <hr id="hr2">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="UF-reklamfilm.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="container pt-5" id="projekt">
+      <h2 class="text-center text-info">Projekt</h2>
+      <hr id="hr2">
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid rounded mb-3 mb-md-0 border" data-toggle="modal" data-target="#exampleModal1" src="img/aretsvara.png" alt="Projekt årets vara">
+        </div>
+        <div class="col-md-5">
+          <h3>Tävling - Årets Vara</h3>
+          <p>Bidrag till UF-tävling vi deltog i.</p>
+          <a class="btn btn-primary" href="">Gå till</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-2">
+          <img class="img-fluid rounded mb-3 mb-md-0" data-toggle="modal" data-target="#exampleModal2" src="img/broschyr.png" alt="Projekt broschyr">
+        </div>
+        <div class="col-md-5">
+          <h3>Broschyrer till UF-mässan i Borås</h3>
+          <p>Broschyrer vi gjorde till mässan i Borås.</p>
+          <a class="btn btn-primary" href="">Gå till</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-2">
+          <img class="img-fluid rounded mb-3 mb-md-0" data-toggle="modal" data-target="#exampleModal3" src="img/affarsplan.png" alt="Projekt affärsplan">
+        </div>
+        <div class="col-md-5">
+          <h3>Affärsplan</h3>
+          <p>Vår produkts affärsplan.</p>
+          <a class="btn btn-primary" href="">Gå till</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-5 bg-dark mt-5" id="footer">
+    <p class="m-0 text-center text-white">&copy; Carl Martins <script>document.write(new Date().getFullYear());</script></p>
+  </footer>
+
+    <!-- Nödvändiga scripts för Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

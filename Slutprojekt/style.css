@@ -1,0 +1,37 @@
+body {
+	padding-top: 100px;
+}
+
+#hr1 {
+	width:100%;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#hr2 {
+	width:70%;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.onHoverEffect {
+	transition: transform .2s;
+}
+
+.onHoverEffect:hover {
+    transform: scale(1.2);
+}
+
+#nav {
+	background-color: #F0F0F0;
+}
+
+/*.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/

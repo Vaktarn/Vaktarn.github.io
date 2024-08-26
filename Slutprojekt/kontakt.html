@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Slutprojekt</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Carl Martins">
+    <meta name="description" content="Slutprojekt webbutveckling">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-lg-0" id="nav">
+    <a class="navbar-brand" href="index.html"><img src="img/paolo2.png" width="90" height="90" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item onHoverEffect">
+          <a class="nav-link" href="index.html">Hem
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item onHoverEffect" id="navbar-transistion">
+          <a class="nav-link" href="om.html">Om oss</a>
+        </li>
+        <li class="nav-item onHoverEffect" id="navbar-transistion">
+          <a class="nav-link" href="produkter.html">Produkter</a>
+        </li>
+        <li class="nav-item active onHoverEffect" id="navbar-transistion">
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+    <div class="jumbotron bg-success">
+      <div class="container text-center">
+        <h1 class="display-3" style="font-family: 'Verdana'; color: black;">Kontakt</h1>
+      </div>
+    </div>
+    <hr id="hr1">
+
+    <div class="container">
+      <section class="mb-4">
+        <h2 class="font-weight-bold text-center my-4">Formulär</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Tveka inte att höra av dig till oss! Vi försöker svara så snabbt som möjligt, vanligtvis inom ett par timmar!</p>
+        <div class="row">
+          <div class="col-md-9 mb-md-0 mb-5 mx-auto">
+            <form id="contact-form" name="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="name" name="name" class="form-control">
+                    <label for="name" class="">För- och efternamn</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="email" name="email" class="form-control">
+                    <label for="email" class="">Din email</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input type="text" id="subject" name="subject" class="form-control">
+                    <label for="subject" class="">Ämne</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                    <label for="message">Ditt meddelande</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+	    <div class="text-center text-md-left">
+	      <a class="btn btn-primary">Skicka</a>
+	    </div>
+              <!-- </div> -->
+            <div class="border mt-4 mx-auto">
+              <ul class="list-unstyled mb-0">
+                <div class="text-center">
+                  <i class="fa fa-envelope mt-4 fa-2x font-weight-bold"></i><p>Vår email:</p>
+                  <p><a href="mailto:dontspillgroup@gmail.com">dontspillgroup@gmail.com</a></p>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container pt-5">
+      <section class="mb-4">
+        <h2 class="font-weight-bold text-center my-4">Google formulär</h2>
+        <p class="text-center w-responsive mb-5">Du kan även ta kontakt med oss via Google Formulär!</p>
+        <iframe class="embed-responsive" src="https://docs.google.com/forms/d/e/1FAIpQLSfkHSJ8qkVq5Ioi-6ATy8evBb1JjMrnJlKEqT4dRSqq6EKI7Q/viewform?embedded=true" width="640" height="1082" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
+      </section>
+    </div>
+    <hr class="featurette-divider">
+  </main>
+
+  <footer class="py-5 bg-dark mt-5" id="footer">
+    <p class="m-0 text-center text-white">&copy; Carl Martins <script>document.write(new Date().getFullYear());</script></p>
+  </footer>
+
+  <!-- Nödvändiga scripts för Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
